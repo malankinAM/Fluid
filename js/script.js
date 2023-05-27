@@ -1,15 +1,15 @@
 // images setup
 const images = [
-  "../img/5 (2).jpg",
-  "../img/7.jpg",
-  "../img/8.jpg",
+  "../5 (2).jpg",
+  "../7.jpg",
+  "../8.jpg",
   "../img/9.jpg",
-  "../img/avatar174986219 (1).jpg",
+  "../avatar174986219 (1).jpg",
 ];
 
 // content setup
 const texts = [
-  ["Listener ", "Band member"],
+  ["Listener ", "Frontend"],
   [" full stack", "Frontend Developer"],
   ["web designer", "Frontend Developer"],
   ["trainee ", "Frontend Developer"],
@@ -23,8 +23,8 @@ rgbKineticSlider = new rgbKineticSlider({
   itemsTitles: texts, // array of titles / subtitles
 
   // displacement images sources
-  backgroundDisplacementSprite: "https://i.ibb.co/N246LxD/map-9.jpg", // slide displacement image
-  cursorDisplacementSprite: "https://i.ibb.co/KrVr51f/displace-circle.png", // cursor displacement image
+  backgroundDisplacementSprite: "../map3.png", // slide displacement image
+  cursorDisplacementSprite: "../displace-circle.png", // cursor displacement image
 
   // cursor displacement effect
   cursorImgEffect: true, // enable cursor effect
